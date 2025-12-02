@@ -2,7 +2,7 @@
 
 Funcionalidade: Consulta de estados no portal do IBGE
 
-  Cenário: Acessar a página de cidades e estados
+  Cenário: Pesquisar estado Paraíba e verificar código
     Dado que acesso o portal de cidades e estados do IBGE
-    Quando seleciono o estado "Paraíba"
-    Então devo ver informações sobre o estado da Paraíba
+    Quando busco pelo estado "Paraíba"
+    Então devo ver o código "25" para o estado da Paraíba
