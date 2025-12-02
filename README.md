@@ -40,3 +40,10 @@ Este projeto contém **testes automatizados** utilizando **BDD** com **Cypress**
 1. Clone o repositório:
 ```bash
 git clone <seu-repositorio>
+
+2. Instale as dependências:
+npm install
+
+3.Abra o Cypress:
+npx cypress open
+
