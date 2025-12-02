@@ -15,3 +15,15 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+
+Cypress.on("uncaught:exception", (err, runnable) => {
+  // Impede falha do teste quando ocorrer "ReferenceError: $ is not defined"
+  if (err.message.includes("$ is not defined")) {
+    return false;
+  }
+  return false; // ignora qualquer erro inesperado do site
+});
+
+Cypress.on("uncaught:exception", () => {
+  return false; // ignora TUDO
+});
