@@ -1,5 +1,12 @@
 # Projeto DE GRUPO PARA QA COM BDD + CYPRESS + GHERKIN + CUCUMBER
 
+  + Grupo:
+    - Reinaldo Lira
+    - Vitor Breno
+    - Riquelmy Paulino
+    - Elidawydson Santos
+    - Keivison Vinícius
+
 # Testes Automatizados - IBGE e Senado Federal
 
 Este projeto contém **testes automatizados** utilizando **BDD** com **Cypress**, **Gherkin** e **Cucumber**, para validar funcionalidades nos portais do **IBGE** e do **Senado Federal**.
